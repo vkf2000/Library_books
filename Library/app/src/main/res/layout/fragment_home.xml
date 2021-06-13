@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="20sp"
+            android:layout_weight="6"
+            android:columnCount="2"
+            android:rowCount="3">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv"
+                android:layout_width="155sp"
+                android:layout_height="155sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:contextClickable="false"
+                app:cardBackgroundColor="@color/grey"
+                app:cardCornerRadius="25dp"
+
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="108dp"
+                        android:layout_height="122dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/adventure" />
+
+                    <TextView
+                        android:id="@+id/click"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:gravity="top|center"
+                        android:text="Adventure"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="155sp"
+                android:layout_height="155sp"
+                android:layout_marginBottom="10dp"
+                app:cardBackgroundColor="@color/grey"
+                app:cardCornerRadius="25dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="108dp"
+                        android:layout_height="122dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/autobiography" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="74dp"
+                        android:gravity="top|center"
+                        android:text="Biography"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="155sp"
+                android:layout_height="155sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                app:cardBackgroundColor="@color/grey"
+                app:cardCornerRadius="25dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="108dp"
+                        android:layout_height="122dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/childliterature" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="74dp"
+                        android:gravity="top|center"
+                        android:text="Chilid Literature"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="155sp"
+                android:layout_height="155sp"
+                android:layout_marginBottom="10dp"
+                app:cardBackgroundColor="@color/grey"
+                app:cardCornerRadius="25dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="108dp"
+                        android:layout_height="122dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/fairytale" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="74dp"
+                        android:gravity="top|center"
+                        android:text="Fairy Tale"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="155sp"
+                android:layout_height="155sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:layout_marginBottom="10dp"
+                app:cardBackgroundColor="@color/grey"
+                app:cardCornerRadius="25dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="108dp"
+                        android:layout_height="122dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/sciencefiction" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="74dp"
+                        android:gravity="top|center"
+                        android:text="Science Fiction"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="155sp"
+                android:layout_height="155sp"
+                android:layout_marginBottom="10dp"
+                app:cardBackgroundColor="@color/grey"
+                app:cardCornerRadius="25dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="108dp"
+                        android:layout_height="122dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/horror" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="74dp"
+                        android:gravity="top|center"
+                        android:text="Horror"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>
+
